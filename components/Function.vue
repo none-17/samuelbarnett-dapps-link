@@ -50,7 +50,7 @@ export default {
 }
 
 #function {
-    background-color: #142935;
+    background-color: black;
 }
 
 </style>

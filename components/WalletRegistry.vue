@@ -1,8 +1,8 @@
 <template>
   <div id="wallets" class="px-4 md:px-20 py-20">
-    <h1 class="text-center text-3xl font-bold mb-4">Registry</h1>
+    <h1 class="text-center text-3xl font-bold mb-4">Wallet</h1>
     <p class="text-center leading-8 tracking-wide">
-      Registry of all Apps and Wallets supporting WalletConnect Protocol
+      Choose from our wide range of wallet support
     </p>
 
     <div  class="grid gap-5 md:grid-cols-4 mt-10 px-10 md:px-0">

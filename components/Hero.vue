@@ -10,19 +10,18 @@
       md:flex
       items-center
       justify-between
-      bg-gray-100
     "
   >
     <div class="text-part md:w-3/6">
       <h1 class="text-6xl font-bold md:w-11/12">
-        Trusted platform to manage Decentralised Apps
+        Support Range for Decentralised Apps
       </h1>
-      <p class="mt-8">Get cloud services your development teams</p>
+      <p class="mt-8">Get instant cloud services for your development teams</p>
       <button class="mt-6">
         <a href="#function">Get Started</a>
       </button>
     </div>
-    <img class="md:w-3/6 mt-5 md:mt-0" src="../static/block-chain-tech.png" alt="" />
+    <img class="md:w-3/6 mt-5 md:mt-0" src="../static/IT-Support-.png" alt="" />
   </div>
 </template>
 

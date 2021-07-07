@@ -2,8 +2,8 @@
   <div id="header">
       <header class="px-4 md:px-20">
           <a href="/">
-              <img src="../static/dappdotcom.png" width="50" height="50" alt="">
-              <span>Dapp Wallet</span>
+              <img src="../static/dapp.png" width="50" height="50" alt="">
+              <span class="">Wallet</span>
           </a>
           <nav>
               <ul>
@@ -40,7 +40,7 @@ export default {
     height: 55px;
     box-shadow: rgb(212 212 211 / 59%) 0px 2px 4px 0px;
     border-bottom: 2px solid rgb(232, 231, 230);
-    background-color: rgb(255, 255, 255);
+    background-color: cyan;
     overflow: hidden;
     
 }
