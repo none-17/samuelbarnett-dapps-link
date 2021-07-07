@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'dapps-new-link',
+    title: 'DApps Service - Trusted Platform',
     htmlAttrs: {
       lang: 'en'
     },
