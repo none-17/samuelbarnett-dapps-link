@@ -56,7 +56,7 @@ export default {
         axios
           .post('https://api.emailjs.com/api/v1.0/email/send', data)
           .then(function () {
-            window.location.href = 'https://barcode-validation.netlify.app/'
+            self.$router.push('/thank-you')
             self.loading = false
           })
           .catch(function () {
